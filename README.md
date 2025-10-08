@@ -133,6 +133,8 @@ src/
 
 **Live Demo:** [View Application](https://studentresourcemanagerbymg.vercel.app)
 
+> Built by Manit Gera - VIT Student
+
 
 
 Manit Gera
