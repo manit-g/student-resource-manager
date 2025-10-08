@@ -33,9 +33,6 @@ A comprehensive full-stack web application built with Next.js 15 that helps stud
 - **MongoDB** - NoSQL database
 - **Mongoose** - MongoDB object modeling
 
-### AI Integration
-- **OpenAI API** - AI-powered features
-- **AI SDK** - Modern AI integration
 
 ### Deployment
 - **Vercel** - Hosting platform
@@ -45,7 +42,6 @@ A comprehensive full-stack web application built with Next.js 15 that helps stud
 
 - Node.js 18+ 
 - MongoDB Atlas account
-- OpenAI API key (optional, for AI features)
 
 ## 🚀 Getting Started
 
@@ -67,12 +63,8 @@ Create a `.env.local` file in the root directory:
 # Database
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/student-resource-manager?retryWrites=true&w=majority
 
-# NextAuth
-NEXTAUTH_URL=http://localhost:3000
+# Authentication
 NEXTAUTH_SECRET=your-secret-key-here
-
-# OpenAI (optional)
-OPENAI_API_KEY=your-openai-api-key-here
 ```
 
 ### 4. Run the Development Server
@@ -95,10 +87,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Delete Resource**: Click the delete button to remove resources
 - **Search & Filter**: Use the search bar and filters to find specific resources
 
-### AI Features
-- **Summarize Notes**: Paste your notes to get AI-generated summaries
-- **Study Tips**: Get personalized study recommendations for any subject
-
 ## 🏗️ Project Structure
 
 ```
@@ -106,8 +94,7 @@ src/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes
 │   │   ├── auth/          # Authentication endpoints
-│   │   ├── resources/     # Resource CRUD operations
-│   │   └── ai/            # AI-powered features
+│   │   └── resources/     # Resource CRUD operations
 │   ├── auth/              # Authentication pages
 │   ├── dashboard/         # Main dashboard
 │   └── globals.css        # Global styles
