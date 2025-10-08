@@ -129,6 +129,10 @@ src/
 - 💼 LinkedIn: [https://linkedin.com/in/manitgeraa](https://linkedin.com/in/manitgeraa)
 - 📧 Email: manitgera@gmail.com
 
+---
+
+**Live Demo:** [View Application](https://studentresourcemanagerbymg.vercel.app)
+
 
 
 Manit Gera
