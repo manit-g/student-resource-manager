@@ -90,7 +90,7 @@ export default async function HomePage() {
             <div className="text-3xl mb-4">📝</div>
             <h3 className="text-xl font-semibold mb-2">Organize Notes</h3>
             <p className="text-gray-600">
-              Store and categorize your study notes by subject with AI-powered summarization.
+              Store and categorize your study notes by subject for easy access.
             </p>
           </div>
           
@@ -142,7 +142,7 @@ export default async function HomePage() {
           <div className="text-center">
             <h3 className="text-lg font-semibold mb-4">Student Resource Manager</h3>
             <p className="text-gray-400 mb-6">
-              Built with Next.js 15, TypeScript, and AI integration
+              Built with Next.js 15, TypeScript, MongoDB, and Tailwind CSS
             </p>
             <div className="flex justify-center space-x-6">
               <a 
