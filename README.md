@@ -5,7 +5,7 @@ A comprehensive full-stack web application built with Next.js 15 that helps stud
 ## 🚀 Features
 
 ### Core Functionality
-- **User Authentication**: Secure JWT-based authentication with NextAuth.js
+- **User Authentication**: Secure JWT-based authentication
 - **Resource Management**: Full CRUD operations for study materials
 - **Resource Types**: Support for notes, assignments, links, and files
 - **Organization**: Categorize resources by subject with tags
